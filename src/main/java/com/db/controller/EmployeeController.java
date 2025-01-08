@@ -10,11 +10,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/employees")
 public class EmployeeController {
-
-
-
-    //for sonar this showing warning
-
     @Autowired
     private EmployeeRepository employeeRepository;
 
